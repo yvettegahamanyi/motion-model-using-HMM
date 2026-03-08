@@ -49,5 +49,3 @@ Based on the test set evaluation, the model achieved perfect separation:
 - **Standing**: 100% Accuracy
 - **Jumping**: 100% Accuracy
 - **Still**: 100% Accuracy
-
-The easiest activities to distinguish were jumping and still due to extreme acceleration spikes and variance differences, while standing and still challenged the model slightly more by relying on subtle micro-movements in the gyroscope. Overall, the Gaussian HMM approach proves highly effective at capturing both the temporal persistence within an activity and the distinct sensor signatures of different movements.
